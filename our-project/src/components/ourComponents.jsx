@@ -1,5 +1,6 @@
 import React from "react";
 import { SariHeimannComp } from "./sariHeimann";
+import { Esther } from "./esther";
 import { ElishevaComponnent } from "./elisheva";
 import { SariStern } from "./SariStern";
 import { Malky } from "./malky";
@@ -11,11 +12,12 @@ export const OurComponents = () => {
         <div>
             <h1>our project</h1>
             <SariHeimannComp></SariHeimannComp>
+            <Esther></Esther>
             <ElishevaComponnent></ElishevaComponnent>
             <SariStern></SariStern>
             <Malky></Malky>
             <DvoraShechterComp></DvoraShechterComp>
             <TamarHorn></TamarHorn>
-        </div>
+      </div>
     )
 }
