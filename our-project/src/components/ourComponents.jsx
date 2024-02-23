@@ -1,5 +1,6 @@
 import React from "react";
 import { SariHeimannComp } from "./sariHeimann";
+import { TalyaBrajtman } from "./talyaBrajtman";
 
 export const OurComponents = () => {
 
@@ -7,7 +8,7 @@ export const OurComponents = () => {
         <div>
             <h1>our project</h1>
             <SariHeimannComp></SariHeimannComp>
-            <talyaBrajtman></talyaBrajtman>
+            <TalyaBrajtman></TalyaBrajtman>
         </div>
     )
 }
