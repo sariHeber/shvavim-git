@@ -7,6 +7,7 @@ export const OurComponents = () => {
         <div>
             <h1>our project</h1>
             <SariHeimannComp></SariHeimannComp>
+            <talyaBrajtman></talyaBrajtman>
         </div>
     )
 }
